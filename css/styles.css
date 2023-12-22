@@ -1,0 +1,307 @@
+#title
+{
+    background-color:#f40202;
+
+}
+.container-fluid
+{
+    padding:3% 15%;
+    padding:3% 15% 7%;
+}
+h1{
+    font-family:cursive;
+    font-size: 3.5em;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+}
+h2
+{
+    font-family: cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+h3{
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+#Ritik{
+    color:white;
+}
+p{
+    color:gray;
+}
+.navbar{
+    padding:-1.5em;
+}
+.navbar-brand
+{
+   font-family: ubuntu;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding:0 12px;
+}
+.nav-link
+{
+    font-size:0.7rem ;
+    font-weight: bold;
+    color:white;
+}
+.Everyone{
+    border-radius:2px;
+}
+.download-button
+{
+    margin:5% 3% 5% 0;
+    
+}
+.rkbtn{
+    /* margin:1% 1% 1% 0; */
+    color:white;
+    background-color: #343a40;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+.rkbtn:hover{
+    background-color: #232121;
+}
+.title-image
+{
+    width:60%;
+    transform:rotate(15deg);
+    position: absolute;
+    right:30%;
+}
+#features
+{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index:1;may or may not neccessary to write z index here */
+    
+    
+}
+.feature-box
+{
+    text-align: center;
+}
+.icon
+{
+    color:rgb(255, 0, 0);
+    margin:1rem;
+}
+.icon:hover{
+    color:#f40202;
+}
+/* testomonial section */
+#testimonials
+{
+    
+    text-align: center;
+    background-color:#f40202;
+}
+.testimonial-image
+{
+    width:20%;
+    border-radius: 10%;
+    margin:10px;
+}
+.emmer
+{
+    color: white;
+}
+#press
+{
+    background-color:#232121;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo
+{
+
+width:15%;
+margin:20px 20px 50px;}
+.carousel-item
+{
+    padding:7% 15%;
+}
+.DOG
+{
+    color:black;
+}
+
+#contact{
+    padding: 3rem;
+    background: #f4f4f4;
+}
+
+#contact .contact-form .bottom-line{
+    width: 10.2vw;
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-div{
+    padding: .6rem;
+}
+
+.contact-form .form-div input,
+.contact-form .form-div textarea{
+    padding: .7rem 1rem;
+    font-family: 'Baloo 2', cursive;
+    font-size: .9rem;
+    width: 90%;
+}
+
+.contact-form .form-div textarea{
+    height: 170px;
+}
+
+.contact-form .btn:hover{
+    opacity: .9;
+}
+
+.contact-info .bottom-line{
+    width: 10.7vw;
+    margin-bottom: 1rem;
+}
+
+.contact-info > p{
+    padding: 1.5rem 0;
+}
+
+.contact-info p{
+    font-size: 1.2rem;
+}
+
+.contact-info .info{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .info i{
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+.btn:hover{
+    background-color: rgb(68, 129, 173);
+    border-color: #f4f4f4;
+    cursor:pointer;
+}
+
+#contact{
+    padding: 3rem;
+    background: #f4f4f4;
+}
+
+#contact .contact-form .bottom-line{
+    width: 10.2vw;
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-div{
+    padding: .6rem;
+}
+
+.contact-form .form-div input,
+.contact-form .form-div textarea{
+    padding: .7rem 1rem;
+    font-family: 'Baloo 2', cursive;
+    font-size: .9rem;
+    width: 90%;
+}
+
+.contact-form .form-div textarea{
+    height: 170px;
+}
+
+.contact-form .btn:hover{
+    opacity: .9;
+}
+
+.contact-info .bottom-line{
+    width: 10.7vw;
+    margin-bottom: 1rem;
+}
+
+.contact-info > p{
+    padding: 1.5rem 0;
+}
+
+.contact-info p{
+    font-size: 1.2rem;
+}
+
+.contact-info .info{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .info i{
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+.btn:hover{
+    background-color: rgb(14, 147, 241);
+    border-color: #6aa6be;
+    cursor:pointer;
+}
+#red{background-color: rgb(36, 139, 223);}
+
+
+/* pricing-section */
+#pricing
+{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column
+{
+    padding:3% 2%;
+}
+
+/* CTA section */
+#cta
+{
+    background-color:#f40202 ;
+    color:#fff;
+    padding:7% 15%;
+    text-align: center;
+}
+.cta-heading
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width:1028px)
+{ 
+    #title
+    {
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+
+    }
+}
+
+/* footer section */
+#footer
+{
+    padding:7% 15%;
+    text-align: center;
+}
+.social-icon
+{
+    margin:20px 10px;
+}
+
